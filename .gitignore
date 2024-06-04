@@ -1,7 +1,7 @@
 .vscode
-*/main.py
-*/*_lastrun.py
-*/data
+*/*/main.py
+*/*/*_lastrun.py
+*/*/data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
