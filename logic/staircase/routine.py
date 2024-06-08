@@ -90,6 +90,15 @@ class StairCase(Generic[T]):
                 pass
             # next value
             self.current = self.func_wrong(self.current)
+    
+    def response(self, correct: bool):
+        """
+        Record a response and adjust the current value if necessary.
+        """
+        if correct:
+            self.correct()
+        else:
+            self.wrong()
 
     def is_stopped(self) -> bool:
         """
