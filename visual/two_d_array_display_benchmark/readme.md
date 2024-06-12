@@ -8,3 +8,4 @@ Not work attempts:
   - better fps (achieves >60 on my laptop), but not stable.
   - spend much time to load the images.
   - spend >10G memory.
+- even not work when save as gif, when the image size become big.
