@@ -1,1 +1,0 @@
-screen size image can not be present stably in terms of fps.
